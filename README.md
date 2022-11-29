@@ -8,4 +8,5 @@ The outputs are a series of GeoTIFF raster files describing the result for each 
 The global results can be also used to map source areas for 3D rockfall numerical simulations. 
 
 How to cite the code:
+
 Taboni, B.; Tagliaferri, I.D.; Umili, G. A Tool for Performing Automatic Kinematic Analysis on Rock Outcrops. Geosciences 2022, 12, 435. https://doi.org/10.3390/geosciences12120435 
