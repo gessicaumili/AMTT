@@ -24,7 +24,11 @@ fileoutsource = 'SOURCES';% name of the file containing source areas
 mkdir(DIR_output);
 IMlist = dir(DIR_tiff);
 IMlist(1:2) = [];
-IMlist(3) = [];
+
+if size(IMlist,1)>2
+    IMlist(3) = [];
+end
+
 nImm = length(IMlist);
 jImm = 1;
 
