@@ -7,6 +7,9 @@ The Matlab code performs Markland's tests for planar and wedge sliding and flexu
 The outputs are a series of GeoTIFF raster files describing the result for each kinematism separately and globally, which can be imported directly into GIS, with the same extent and georeferencing of the input data.
 The global results can be also used to map source areas for 3D rockfall numerical simulations. 
 
-How to cite the code:
+# Specific requirements:
+Functions geotiffinfo and geotiffwrite require Mapping Toolbox to run.
+
+# How to cite the code:
 
 Taboni, B.; Tagliaferri, I.D.; Umili, G. A Tool for Performing Automatic Kinematic Analysis on Rock Outcrops. Geosciences 2022, 12, 435. https://doi.org/10.3390/geosciences12120435 
